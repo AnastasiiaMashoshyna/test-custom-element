@@ -20,9 +20,6 @@ const createImageContainer = () => {
   <div class="card">SEVEN</div>
   <div class="card">EIGHT</div>
   <div class="card">NINE</div>
-  <div class="card">TEN</div>
-  <div class="card">ELEVEN</div>
-  <div class="card">TWELVE</div>
 </div>
 `
   return imageContainer;
@@ -38,15 +35,15 @@ body { padding: 1rem; }
   background-color: dodgerblue;
   color: white;
   padding: 1rem;
-  height: 4rem;
+  height: 2rem;
 }
 
 .cards {
-  max-width: 1200px;
+  max-width: 800px;
   margin: 0 auto;
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
     `;
   return styleElement;
